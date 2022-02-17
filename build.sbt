@@ -8,6 +8,7 @@ lazy val root = (project in file("."))
     idePackagePrefix := Some("io.icednut.study"),
     libraryDependencies ++= Seq(
       "org.kohsuke" % "github-api" % "1.301",
+      "org.typelevel" %% "cats-effect" % "3.3.5",
       "org.scalatest" %% "scalatest" % "3.2.11" % "test"
     )
   )
